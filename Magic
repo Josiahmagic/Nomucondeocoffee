@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomucon Deo Coffee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .product-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .product-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product-description {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            display: block;
+            width: 200px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nomucon Deo Coffee</h1>
+    </header>
+    <div class="container">
+        <div class="product-image">
+            <img src="coffee_image.jpg" alt="Tasty Coffee">
+        </div>
+        <div class="product-description">
+            <h2>Introducing Our Nomucon Deo Coffee</h2>
+            <p>Experience the rich flavor and aroma of our premium coffee blend. Made from the finest beans sourced.</p>
+            <a href="#" class="cta-button">Buy Now</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Nomucon Deo Coffee. All rights reserved.</p>
+    </footer>
+</body>
+</html>
